@@ -1,0 +1,31 @@
+#btnAcessibilidade {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #0044cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.alto-contraste {
+  background: white !important;
+  color: black!important;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 3;
+    transform: translateY(0);
+  }
+}
